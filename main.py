@@ -4,6 +4,7 @@ import os
 import requests 
 from urllib.parse import urlparse
 
+
 def shorten_link(token, url):
     url_vk = 'https://api.vk.ru/method/utils.getShortLink' 
     params = { 
